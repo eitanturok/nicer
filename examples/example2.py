@@ -113,7 +113,5 @@ async def chat_completion(query):
 
 # Main execution
 if __name__ == "__main__":
-    user_query = "Hello, tell me a very long story."
+    user_query = "Hello, write about the adventures of Maya getting two America with her two feet."
     asyncio.run(chat_completion(user_query))
-
-
